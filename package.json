@@ -1,0 +1,37 @@
+{
+  "name": "ipl-auction",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "server",
+    "web"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:server": "tsx watch server/src/index.ts",
+    "dev:web": "npm run dev -w web",
+    "seed": "tsx server/src/seed/seed.ts",
+    "build": "npm run build -w web",
+    "start": "tsx server/src/index.ts",
+    "start:seeded": "SEED_ON_EMPTY=true tsx server/src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:race": "tsx tests/race.ts",
+    "test:all": "npm run test && npm run test:race",
+    "load": "tsx tests/load.ts",
+    "check:backend": "tsx scripts/backend-check.ts",
+    "verify": "bash scripts/verify.sh",
+    "typecheck": "tsc --noEmit -p shared && tsc --noEmit -p server && tsc --noEmit -p web",
+    "ui:shots": "npx playwright screenshot --viewport-size=1920,1080 \"http://localhost:3000/dev/states?surface=board&state=LIVE\" docs/screenshots/board-live.png"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

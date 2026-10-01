@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.db
+*.db-wal
+*.db-shm
+passcodes.csv
+.env
+*.log
+coverage/
+.DS_Store

@@ -1,0 +1,17 @@
+[
+  { "code": "CSK", "name": "Chennai Kings", "color": "#f9cd05" },
+  { "code": "MUM", "name": "Mumbai Mariners", "color": "#004ba0" },
+  { "code": "BLR", "name": "Bengaluru Royals", "color": "#d5152d" },
+  { "code": "KOL", "name": "Kolkata Knights", "color": "#6b3fa0" },
+  { "code": "DEL", "name": "Delhi Chargers", "color": "#2561ae" },
+  { "code": "PUN", "name": "Punjab Panthers", "color": "#dd1f2d" },
+  { "code": "RAJ", "name": "Rajasthan Rangers", "color": "#e238b9" },
+  { "code": "GUJ", "name": "Gujarat Titans XI", "color": "#1b2133" },
+  { "code": "HYD", "name": "Hyderabad Hawks", "color": "#f26522" },
+  { "code": "JAI", "name": "Jaipur Jaguars", "color": "#ff6b9d" },
+  { "code": "GOA", "name": "Goa Gladiators", "color": "#00a651" },
+  { "code": "LUC", "name": "Lucknow Legends", "color": "#00b2a9" },
+  { "code": "MOH", "name": "Mohali Mavericks", "color": "#b5121b" },
+  { "code": "NAG", "name": "Nagpur Nomads", "color": "#ff8300" },
+  { "code": "IND", "name": "Indore Imperials", "color": "#6c4abd" }
+]
