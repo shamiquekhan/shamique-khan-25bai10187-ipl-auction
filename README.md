@@ -6,7 +6,7 @@
 | **Registration Number** | 25BAI10187 |
 | **Date of Submission** | 02 October 2026 |
 | **Repo** | Shamique_25BAI10187_IPL_Auction |
-| **Demo video** | <YouTube link> |
+| **Demo video** | https://youtu.be/hKUNN6SGS8g |
 | **Live demo (optional)** | <Render/tunnel link> |
 
 ## What it is
